@@ -59,6 +59,7 @@ Use in a well-lit environment for best detection results.
 Make sure your webcam is working properly.
 
 📄 License
+
 © 2025 Yasir Mondal. All rights reserved.
 This project is not licensed for public use without permission.
 
