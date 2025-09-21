@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dizziness Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Dizziness Detector</h1>
+    <div id="controls">
+      <button id="openCameraBtn">Open Camera</button>
+    </div>
+    <div id="cameraContainer">
+      <video id="video" autoplay playsinline></video>
+    </div>
+    <div id="output">
+      <h2>Estimated Dizziness:</h2>
+      <div id="dizzinessScore">--%</div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
